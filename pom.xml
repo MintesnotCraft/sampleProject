@@ -30,14 +30,18 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 			<configuration>
+			
+
         <cloudHubDeployment>
             <uri>https://anypoint.mulesoft.com</uri>
-            <muleVersion>4.7.0</muleVersion>
-            <username>mulepoc</username>
+            <muleVersion>4.6.1</muleVersion>
+            <username>waliacoders</username>
             <password>Gingerbread9@gingerbread</password>
             <applicationName>mulesoft-cicd-sample1</applicationName>
+              <businessGroup>MuleSoft</businessGroup>
             <environment>Sandbox</environment>
             <workerType>MICRO</workerType>
+            <workers>1</workers>
             <objectStoreV2>true</objectStoreV2>
         </cloudHubDeployment>
     </configuration>
